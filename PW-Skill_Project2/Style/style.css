@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+.left-nav{
+    display: flex;
+    /* border: 2px solid red; */
+    width: 60%;
+    justify-content: flex-start;
+    gap: 50px;
+    padding: 7px 15px;
+}
+.left-nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+.left-nav ul li{
+    list-style: none;
+}
+.left-nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+}
+.left-nav ul li a:hover{
+    text-decoration: 3px underline #9f56bc;
+    color: rgb(32, 30, 27);
+}
+.right-nav{
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+    align-items: center;
+}
+.right-nav button{
+    margin:7px 15px 0 0;
+    font-weight: 500;
+    font-size: 18px;
+    height: 43px;
+    padding: 7px;
+    cursor: pointer;
+    background-color: #844aef;
+    border: none;
+    color: #ffffff;
+    border-radius: 8px;
+}
+.right-nav button:hover{
+    text-decoration: 3px underline #000000c0;
+}
+/* main-section */
+.hero-section{
+    display: flex;
+    width: 100vw;
+    height: 80vh;
+}
+.hero-right{
+    display: flex;
+    justify-content: center;
+    
+}
+.hero-right img{
+    object-fit: cover;
+}
+.hero-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: justify;
+    width: 50%;
+}
+.hero-left h1{
+    font-weight: 900;
+    font-size: 55px;
+    color:#23153e ;
+}
+.hero-left h1 span{
+    color: #714eb7;
+}
+.hero-left p{
+    position: relative;
+    left: 90px;
+    font-size: 14px;
+    color: #c6c4c1;
+}
+.hero-left button{
+    margin:7px 15px 0 0;
+    font-weight: 500;
+    font-size: 18px;
+    height: 43px;
+    padding: 7px;
+    cursor: pointer;
+    background-color: #844aef;
+    border: none;
+    color: #ffffff;
+    border-radius: 8px;
+
+}
+.hero-left button:hover{
+    text-decoration: 3px underline #000000c0;
+}
+.hero-left .button button{
+    position: relative;
+    right: 90px;
+}
+
